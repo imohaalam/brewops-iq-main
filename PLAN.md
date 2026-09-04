@@ -7,9 +7,17 @@
 
 | Module | File | Status | Notes |
 |--------|------|--------|-------|
-| Part A — Pricing | `src/pricing/engine.ts` | ⬜ not started | Build first — Parts B/C depend on it |
-| Part B — Store Audit | `src/audit/storeAudit.ts` | ⬜ not started | Independent of pricing |
-| Part C — Region Settlement | `src/settlement/settle.ts` | ⬜ not started | **Must reuse `priceTicket`** |
+| Part A — Pricing | `src/pricing/engine.ts` | ✅ DONE | 1.75 credits |
+| Part B — Store Audit | `src/audit/storeAudit.ts` | ✅ DONE | ~1.85 credits |
+| Part C — Region Settlement | `src/settlement/settle.ts` | 🔨 BUILD THIS RUN | Must reuse `priceTicket` |
+
+## This Run Scope
+
+**Build ONLY Part C: `src/settlement/settle.ts` with `settleRegion`.**
+Read `briefs/settlement.md` for the distilled spec.
+Parts A and B are already done — do NOT modify them.
+**IMPORTANT:** `settleRegion` MUST import and reuse `priceTicket` from `../pricing/engine`.
+After completing Part C, stop. All three modules will be complete.
 
 ## Strategy (beginner-friendly)
 

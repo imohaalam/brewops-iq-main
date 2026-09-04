@@ -60,3 +60,11 @@ Use a rounding helper that adds a tiny epsilon or uses `toFixed`-based logic.
 ## Progress
 
 See `PLAN.md` for what is done and what is next. Update it between runs.
+
+## THIS RUN — Build ONLY Part C
+
+In this run, build **only** `src/settlement/settle.ts` with `settleRegion`.
+Read `briefs/settlement.md` for the complete distilled spec.
+Parts A and B are already done — do NOT modify them.
+**CRITICAL:** `settleRegion` MUST import and reuse `priceTicket` from `../pricing/engine`.
+After completing Part C, all three modules will be complete.
